@@ -1,0 +1,27 @@
+// Importing Google font - Roboto Condensed & Lobster Two
+@import url("https://fonts.googleapis.com/css?family=Lobster+Two|Roboto+Condensed:400,700&display=swap");
+// Importing Remix Icon
+@import url("https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css");
+
+// ABSTRACTS
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+// BASE
+@import "base/normalize";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+// VENDORS
+@import "vendor/prism";
+
+// LAYOUT
+@import "layout/grid";
+@import "layout/section";
+@import "layout/headers";
+@import "layout/footer";
+
+// COMPONENTS
+@import "components/breadcrumbs";
+@import "components/pagination";

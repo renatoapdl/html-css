@@ -1,0 +1,62 @@
+/*
+=================================================
+                  TYPOGRAPHY
+=================================================
+*/
+
+p {
+  &:not(:last-child) {
+    margin-bottom: 1.6rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $body-font-family;
+  color: inherit;
+  font-weight: $bold-weight;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: $h1;
+}
+
+h2 {
+  font-size: $h2;
+}
+
+h3 {
+  font-size: $h3;
+}
+
+s {
+  text-decoration: line-through;
+}
+
+.leading {
+  font-size: $leading-font-size;
+}
+
+.section-heading {
+  margin-bottom: 2rem;
+  span {
+    font-family: $fancy-font-family;
+    position: relative;
+    margin-bottom: 1rem;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 0.4rem;
+      background-color: $hover-active-color;
+      bottom: -0.8rem;
+      left: 0;
+    }
+  }
+}

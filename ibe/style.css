@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* Fontes */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+/* Configurações universais */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --cor0: #FFFFFF;
+    --cor1: #EFEFEF;
+    --cor2: #dab688;
+    --cor3: #CC7F17;
+    --cor4: #C47530;
+    --cor5: #b01116;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #dab688 , #C47530 85.61%);
+
+}
+
+header {
+    
+}
+
+.cabecalho {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.cabecalho-imagem {
+    height: 40px;
+}
